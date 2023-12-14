@@ -10,6 +10,7 @@
 void f_rotr(stack_t **head, unsigned int counter)
 {
 	stack_t *current = *head;
+	(void) counter;
 
 	if (*head == NULL || (*head)->next == NULL)
 		return;

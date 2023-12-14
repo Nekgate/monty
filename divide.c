@@ -8,7 +8,7 @@
  */
 void f_div(stack_t **head, unsigned int counter)
 {
-	stack_t *h = head;
+	stack_t *h = *head;
 	int len = 0, aux;
 
 	while (h)
